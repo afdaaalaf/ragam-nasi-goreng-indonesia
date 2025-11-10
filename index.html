@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>🍚 Ragam Nasi Goreng Indonesia 🍚</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!-- Dark/Light Mode Toggle -->
+		<button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+			<span class="sun">☀️</span>
+			<span class="moon">🌙</span>
+		</button>
+
+		<div class="container">
+			<!-- Header -->
+			<header class="header">
+				<h1 class="title">🍚 Ragam Nasi Goreng Indonesia 🍚</h1>
+				<p class="subtitle">
+					Jelajahi berbagai jenis nasi goreng khas Nusantara
+				</p>
+			</header>
+
+			<!-- Main Interactive Circle Layout -->
+			<div class="circle-container">
+				<!-- Center Circle -->
+				<div class="circle center-circle">
+					<div class="circle-content">
+						<h2>Macam-Macam<br />Nasi Goreng</h2>
+						<p>Klik circle untuk detail</p>
+					</div>
+				</div>
+
+				<!-- Surrounding Circles -->
+				<a
+					href="pages/nasgor_kambing.html"
+					class="circle small-circle"
+					data-type="kambing"
+					style="--delay: 0"
+				>
+					<div class="circle-image kambing-img"></div>
+					<span class="circle-label">Nasi Goreng Kambing</span>
+				</a>
+
+				<a
+					href="pages/nasgor_seafood.html"
+					class="circle small-circle"
+					data-type="seafood"
+					style="--delay: 1"
+				>
+					<div class="circle-image seafood-img"></div>
+					<span class="circle-label">Nasi Goreng Seafood</span>
+				</a>
+
+				<a
+					href="pages/nasgor_jawa.html"
+					class="circle small-circle"
+					data-type="jawa"
+					style="--delay: 2"
+				>
+					<div class="circle-image jawa-img"></div>
+					<span class="circle-label">Nasi Goreng Jawa</span>
+				</a>
+
+				<a
+					href="pages/nasgor_ayam.html"
+					class="circle small-circle"
+					data-type="ayam"
+					style="--delay: 3"
+				>
+					<div class="circle-image ayam-img"></div>
+					<span class="circle-label">Nasi Goreng Ayam</span>
+				</a>
+
+				<a
+					href="pages/nasgor_sapi.html"
+					class="circle small-circle"
+					data-type="sapi"
+					style="--delay: 4"
+				>
+					<div class="circle-image sapi-img"></div>
+					<span class="circle-label">Nasi Goreng Sapi</span>
+				</a>
+
+				<a
+					href="pages/nasgor_pete.html"
+					class="circle small-circle"
+					data-type="pete"
+					style="--delay: 5"
+				>
+					<div class="circle-image pete-img"></div>
+					<span class="circle-label">Nasi Goreng Pete</span>
+				</a>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
