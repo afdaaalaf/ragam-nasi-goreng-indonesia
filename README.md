@@ -8,17 +8,18 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Setup & Installation](#setup--installation)
-- [GitHub Pages Deployment](#github-pages-deployment)
-- [How It Works](#how-it-works)
-- [Customization Guide](#customization-guide)
-- [Technologies Used](#technologies-used)
-- [Browser Compatibility](#browser-compatibility)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Setup & Installation](#-setup--installation)
+- [GitHub Pages Deployment](#-github-pages-deployment)
+- [How It Works](#-how-it-works)
+- [Customization Guide](#-customization-guide)
+- [Technologies Used](#%EF%B8%8F-technologies-used)
+- [Browser Compatibility](#-browser-compatibility)
+- [Responsive Breakpoints](#-responsive-breakpoints)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
@@ -438,8 +439,8 @@ copies of the Software...
 
 Need help? Found a bug? Have suggestions?
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/ragam-nasi-goreng-indonesia/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/ragam-nasi-goreng-indonesia/discussions)
+- **Issues**: [GitHub Issues](https://github.com/yourusername/infografik-interaktif/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/yourusername/infografik-interaktif/discussions)
 
 ---
 
@@ -462,7 +463,6 @@ This project is perfect for:
 ## 🙏 Acknowledgments
 
 - **Google Fonts** for the beautiful Nunito typeface
-- **Lorem Ipsum** for placeholder text
 - Indonesian culinary culture for the inspiration
 - All contributors and users of this project
 
